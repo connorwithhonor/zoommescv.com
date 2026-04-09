@@ -1,2 +1,0 @@
-# zoommescv.com
-ZoomMeSCV.com

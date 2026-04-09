@@ -1,1 +1,691 @@
-{"id":"/index.html","path":"/index.html","sha":"19db30c8f7b03d25e2ed230584f5a58d31e5b6ac","mime_type":"text/html","size":28220,"site_id":"a5776b0a-748c-41f5-a584-a87c3858f038","deploy_id":"69bc8efab71e2207b11f5f06"}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ZoomMeSCV.com | Strategy Sessions for Real Estate + AI Growth</title>
+  <meta name="description" content="Book a free 20–30 minute Zoom strategy session covering real estate decisions, AI audits, and AI-driven growth. No obligation—just clarity and a smart plan." />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="ZoomMeSCV.com | Strategy Sessions for Real Estate + AI Growth" />
+  <meta property="og:description" content="A no-pressure Zoom session for real estate strategy, AI audits, and AI growth. Get clarity, options, and a practical plan with Connor MacIvor (“Connor with Honor”), CA DRE #01238257." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://storage.googleapis.com/msgsndr/3z37W4oH1lMfraSObL1X/media/696fa38ccc95d73cca1b1774.png" />
+  <meta property="og:url" content="https://zoommescv.com" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="theme-color" content="#07080a" />
+
+  <link rel="icon" type="image/svg+xml" href="https://storage.googleapis.com/msgsndr/3z37W4oH1lMfraSObL1X/media/697d08fa1fd8271a29f64570.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+
+  <style>
+    :root {
+      --bg0: #050608;
+      --bg1: #0a0c10;
+      --panel: #0e1117;
+      --panel2: #121620;
+      --gold: #d4af37;
+      --gold-soft: #b8922f;
+      --text: #f6f8fb;
+      --muted: #c4c9d3;
+      --muted2: #9aa3b2;
+      --line: rgba(255, 255, 255, 0.12);
+      --shadow: 0 20px 70px rgba(0, 0, 0, 0.55);
+      --radius: 18px;
+      --max: 1180px;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: 'Manrope', 'Segoe UI', sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(1200px 700px at 20% -5%, rgba(212, 175, 55, 0.16), transparent 60%),
+        radial-gradient(900px 600px at 88% 0%, rgba(255, 255, 255, 0.06), transparent 55%),
+        linear-gradient(180deg, var(--bg0), var(--bg1));
+      overflow-x: hidden;
+    }
+
+    a { color: inherit; text-decoration: none; }
+    img { max-width: 100%; display: block; }
+    .wrap { max-width: var(--max); margin: 0 auto; padding: 0 20px; }
+
+    /* Header */
+    .topbar {
+      position: sticky; top: 0; z-index: 80;
+      backdrop-filter: blur(12px);
+      background: rgba(8, 9, 12, 0.82);
+      border-bottom: 1px solid var(--line);
+    }
+    .topbar-inner {
+      display: flex; align-items: center; justify-content: space-between;
+      gap: 14px; padding: 12px 0;
+    }
+    .brand { display: flex; align-items: center; gap: 12px; min-width: 210px; }
+    .brand-mark {
+      width: 36px; height: 36px; border-radius: 12px;
+      border: 1px solid rgba(212, 175, 55, 0.5);
+      background: linear-gradient(180deg, rgba(212, 175, 55, 0.22), rgba(0, 0, 0, 0.45));
+      display: grid; place-items: center;
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.45);
+      font-weight: 800; letter-spacing: 0.4px; color: var(--gold);
+    }
+    .brand-title { line-height: 1.1; }
+    .brand-title strong { display: block; font-size: 15px; letter-spacing: 0.3px; color: var(--text); }
+    .brand-title small { font-size: 11px; color: var(--muted2); font-weight: 500; }
+
+    .nav {
+      display: flex; gap: 24px;
+      font-size: 13px; font-weight: 600; color: var(--muted);
+    }
+    .nav a:hover { color: var(--text); }
+
+    .actions { display: flex; align-items: center; gap: 12px; }
+    .btn {
+      display: inline-flex; align-items: center; justify-content: center;
+      padding: 10px 20px; border-radius: 999px;
+      font-weight: 700; font-size: 13px; letter-spacing: 0.2px;
+      transition: all 0.2s ease; cursor: pointer;
+    }
+    .btn-primary {
+      background: linear-gradient(135deg, #d4af37, #b88f1d);
+      color: #0b0d12;
+      box-shadow: 0 8px 20px rgba(212, 175, 55, 0.25);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    .btn-primary:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 12px 30px rgba(212, 175, 55, 0.35);
+    }
+    .btn-ghost {
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid var(--line);
+      color: var(--text);
+    }
+    .btn-ghost:hover { background: rgba(255, 255, 255, 0.08); }
+
+    /* Hero */
+    .hero {
+      position: relative;
+      padding: 60px 0 80px;
+      overflow: hidden;
+    }
+    .hero-bg {
+      position: absolute; inset: 0; z-index: -1;
+      opacity: 0.35;
+      /* Overlay gradient to fade bottom */
+      -webkit-mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
+      mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
+    }
+    .slide {
+      position: absolute; inset: 0;
+      background-size: cover; background-position: center;
+      opacity: 0;
+      transition: opacity 1.5s ease-in-out;
+    }
+    .slide.is-active { opacity: 1; }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.2fr 0.8fr;
+      gap: 40px; align-items: center;
+    }
+
+    .kicker {
+      display: inline-flex; align-items: center; gap: 8px;
+      margin-bottom: 20px;
+      padding: 6px 12px;
+      background: rgba(212, 175, 55, 0.1);
+      border: 1px solid rgba(212, 175, 55, 0.2);
+      border-radius: 99px;
+      font-size: 12px; font-weight: 600; color: var(--gold);
+    }
+    .dot { width: 6px; height: 6px; background: currentColor; border-radius: 50%; }
+
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 42px; line-height: 1.15;
+      margin: 0 0 24px;
+      background: linear-gradient(135deg, #fff 30%, #ccc);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .subhead {
+      font-size: 16px; line-height: 1.6; color: var(--muted);
+      margin: 0 0 32px; max-width: 90%;
+    }
+
+    .hero-points {
+      display: grid; grid-template-columns: 1fr 1fr; gap: 16px;
+      margin-bottom: 32px;
+    }
+    .point {
+      font-size: 13px; line-height: 1.5; color: var(--muted2);
+      padding-left: 12px; border-left: 2px solid var(--gold-soft);
+    }
+    .point strong { color: var(--text); display: block; margin-bottom: 4px; }
+
+    .hero-cta { display: flex; gap: 14px; flex-wrap: wrap; margin-bottom: 24px; }
+    .mini { font-size: 12px; color: var(--muted2); line-height: 1.4; opacity: 0.8; }
+
+    .profile {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      padding: 24px;
+      box-shadow: var(--shadow);
+    }
+    .profile-top { display: flex; gap: 16px; align-items: center; margin-bottom: 18px; }
+    .avatar {
+      width: 64px; height: 64px; border-radius: 50%; overflow: hidden;
+      border: 2px solid var(--gold);
+    }
+    .avatar img { width: 100%; height: 100%; object-fit: cover; }
+    .who strong { display: block; font-size: 15px; margin-bottom: 2px; }
+    .who small { font-size: 12px; color: var(--muted); display: block; }
+    
+    .profile-body {
+      font-size: 14px; line-height: 1.6; color: var(--muted); margin-bottom: 20px;
+      background: rgba(255, 255, 255, 0.03); padding: 16px; border-radius: 12px;
+    }
+    .pillrow { display: flex; gap: 8px; margin-top: 12px; flex-wrap: wrap; }
+    .pill {
+      font-size: 11px; padding: 4px 10px; border-radius: 6px;
+      background: rgba(255, 255, 255, 0.05); color: var(--muted2);
+    }
+    .profile-actions { display: grid; gap: 10px; }
+    .profile-actions .btn { width: 100%; }
+
+    /* Sections */
+    section { padding: 60px 0; border-bottom: 1px solid var(--line); }
+    .section-title {
+      display: flex; align-items: flex-end; justify-content: space-between;
+      gap: 16px; margin-bottom: 24px;
+    }
+    .section-title h2 { margin: 0; font-size: 28px; letter-spacing: -0.3px; }
+    .section-title p { margin: 0; color: var(--muted2); max-width: 60ch; font-size: 14px; line-height: 1.6; }
+
+    .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+    .card {
+      border: 1px solid var(--line);
+      background: rgba(255, 255, 255, 0.04);
+      border-radius: var(--radius);
+      padding: 24px;
+      box-shadow: 0 18px 60px rgba(0, 0, 0, 0.35);
+      position: relative; overflow: hidden;
+    }
+    .card::before {
+      content: ""; position: absolute; inset: -1px;
+      background:
+        radial-gradient(540px 220px at 10% 0%, rgba(212, 175, 55, 0.16), transparent 60%),
+        radial-gradient(540px 220px at 90% 0%, rgba(255, 255, 255, 0.05), transparent 60%);
+      opacity: 0.55; pointer-events: none;
+    }
+    .card > * { position: relative; z-index: 1; }
+    .card h3 { margin: 0 0 14px; font-size: 20px; letter-spacing: -0.2px; color: var(--gold); }
+    .card p { margin: 0 0 12px; color: var(--muted); line-height: 1.6; font-size: 14px; }
+    ul.clean { margin: 0; padding-left: 20px; color: var(--muted); line-height: 1.6; font-size: 14px; }
+    ul.clean li { margin: 8px 0; }
+
+    /* Video Placeholder */
+    .video-shell {
+      border: 1px solid var(--line);
+      background: rgba(0, 0, 0, 0.25);
+      border-radius: var(--radius);
+      overflow: hidden;
+      box-shadow: var(--shadow);
+    }
+    .video-responsive {
+      position: relative; padding-top: 56.25%; /* 16:9 */
+      background: radial-gradient(600px 300px at 30% 20%, rgba(212, 175, 55, 0.14), transparent 60%),
+                  linear-gradient(180deg, rgba(255, 255, 255, 0.04), rgba(255, 255, 255, 0.02));
+      display: grid; place-items: center;
+    }
+    .video-responsive iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+    .video-placeholder-text { color: var(--muted); font-size: 14px; text-align: center; }
+
+    /* FAQ */
+    .faq { display: grid; gap: 12px; }
+    .faq-item {
+      border: 1px solid var(--line);
+      background: rgba(255, 255, 255, 0.03);
+      border-radius: 14px; overflow: hidden;
+    }
+    .faq-q {
+      width: 100%; display: flex; justify-content: space-between; gap: 12px; align-items: center;
+      padding: 18px; background: transparent; border: 0;
+      color: var(--text); cursor: pointer;
+      font-weight: 700; letter-spacing: 0.2px; font-size: 14px; text-align: left;
+    }
+    .faq-q span { color: var(--gold); font-weight: 600; font-size: 13px; }
+    .faq-a {
+      max-height: 0; overflow: hidden;
+      transition: max-height 0.3s ease;
+      border-top: 1px solid rgba(255, 255, 255, 0.06);
+    }
+    .faq-a .inner {
+      padding: 16px 18px 20px;
+      color: var(--muted); font-size: 14px; line-height: 1.6;
+    }
+    .chev {
+      width: 10px; height: 10px;
+      border-right: 2px solid rgba(212, 175, 55, 0.85);
+      border-bottom: 2px solid rgba(212, 175, 55, 0.85);
+      transform: rotate(45deg); transition: transform 0.2s ease;
+      margin-left: 8px; flex: 0 0 auto;
+    }
+    .faq-item.open .chev { transform: rotate(-135deg); }
+    .faq-item.open .faq-a { max-height: 300px; }
+
+    /* Booking */
+    .booking-shell {
+      border: 1px solid rgba(212, 175, 55, 0.38);
+      background: rgba(212, 175, 55, 0.06);
+      border-radius: 20px;
+      padding: 24px;
+      box-shadow: 0 18px 60px rgba(0, 0, 0, 0.35);
+    }
+    .booking-note { color: var(--muted); font-size: 14px; line-height: 1.6; margin: 0 0 16px; }
+
+    /* Footer */
+    footer { padding: 40px 0 60px; color: var(--muted2); font-size: 12px; line-height: 1.6; border-top: 1px solid var(--line); }
+    .footer-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; align-items: start; }
+    
+    /* Floating mobile CTA */
+    .float-cta {
+      position: fixed; left: 14px; right: 14px; bottom: 14px; z-index: 90;
+      display: none; gap: 10px;
+    }
+    .float-cta .btn { flex: 1; box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5); }
+
+    /* Responsive */
+    @media (max-width: 980px) {
+      .hero-grid { grid-template-columns: 1fr; gap: 32px; }
+      .actions { display: none; } /* Hide header actions on tablet/mobile, use hamburger or simple layout */
+      .nav { display: none; } /* Simplified for this landing page */
+      .brand { margin-right: auto; }
+      /* Just keep brand in center or left */
+      .topbar-inner { justify-content: center; }
+      .brand { justify-content: center; }
+      
+      .grid-2 { grid-template-columns: 1fr; }
+      .footer-grid { grid-template-columns: 1fr; }
+      .hero { padding: 40px 0; }
+      h1 { font-size: 32px; }
+    }
+    @media (max-width: 720px) {
+      .float-cta { display: flex; }
+      .booking-shell { padding: 16px; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      .slide { transition: none; }
+      .faq-a { transition: none; }
+    }
+  </style>
+<link rel="icon" type="image/x-icon" href="/favicon.ico"><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png"><link rel="apple-touch-icon" sizes="180x180" href="/favicon-180.png"><meta property="og:image" content="https://zoommescv.com/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="https://zoommescv.com/og-image.png"></head>
+
+<body>
+  <!-- Topbar -->
+  <div class="topbar">
+    <div class="wrap">
+      <div class="topbar-inner">
+        <div class="brand">
+          <div class="brand-mark" aria-hidden="true">SCV</div>
+          <div class="brand-title">
+            <strong>ZoomMeSCV.com</strong>
+            <small>Real estate • AI audits • AI growth</small>
+          </div>
+        </div>
+
+        <nav class="nav" aria-label="Primary">
+          <a href="#real-estate">Real Estate</a>
+          <a href="#ai-audits">AI Audits &amp; Growth</a>
+          <a href="#whatwecover">What We Cover</a>
+          <a href="#video">Video</a>
+          <a href="#faq">FAQ</a>
+        </nav>
+
+        <div class="actions">
+          <a class="btn btn-ghost" href="tel:+16614001720">Call: 661-400-1720</a>
+          <a class="btn btn-primary" href="#book">Book a Zoom</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- HERO -->
+  <header class="hero" id="top">
+    <div class="hero-bg" aria-hidden="true">
+      <div class="slide is-active" style="background-image:url('https://storage.googleapis.com/msgsndr/3z37W4oH1lMfraSObL1X/media/697cbafc1fd82755b9e77fd3.png')"></div>
+      <div class="slide" style="background-image:url('https://storage.googleapis.com/msgsndr/3z37W4oH1lMfraSObL1X/media/697cbafcf7a877826f755bba.png')"></div>
+      <div class="slide" style="background-image:url('https://storage.googleapis.com/msgsndr/3z37W4oH1lMfraSObL1X/media/697cbafca413e84aeadf8ad5.png')"></div>
+      <div class="slide" style="background-image:url('https://storage.googleapis.com/msgsndr/3z37W4oH1lMfraSObL1X/media/697c0e9904b05b054972fb45.png')"></div>
+      <div class="slide" style="background-image:url('https://storage.googleapis.com/msgsndr/3z37W4oH1lMfraSObL1X/media/697c0e9ad5b65eb10bcad096.png')"></div>
+    </div>
+
+    <div class="wrap">
+      <div class="hero-grid">
+        <div>
+          <div class="kicker"><span class="dot"></span> No obligation. Just clarity.</div>
+
+          <h1>Spend 20–30 minutes on Zoom and get a clear strategy for real estate, AI audits, or AI-driven growth.</h1>
+
+          <p class="subhead">
+            No pressure. No sales pitch. Just a focused conversation to clarify goals, surface risks, and map next steps—
+            whether you’re making a real estate decision, evaluating AI risk, or planning AI-enabled growth.
+          </p>
+
+          <div class="hero-points">
+            <div class="point"><strong>Real estate:</strong> Strategy for buyers, sellers, and investors—timing, pricing, and risk control.</div>
+            <div class="point"><strong>AI audits:</strong> Identify risk, governance gaps, and data exposure before you scale.</div>
+            <div class="point"><strong>AI growth:</strong> Find high-ROI use cases, automation wins, and clear execution steps.</div>
+            <div class="point"><strong>Real talk:</strong> Candid guidance, practical options, and clear decision points.</div>
+          </div>
+
+          <div class="hero-cta">
+            <a class="btn btn-primary" href="#book">Book Your Free Zoom Session</a>
+            <a class="btn btn-ghost" href="sms:+16614001720?&body=Hi%20Connor%2C%20I%20want%20to%20book%20a%20Zoom%20strategy%20call.">Text: 661-400-1720</a>
+          </div>
+
+          <p class="mini">
+            Bring anyone involved in the decision (partners, spouses, technical leads). We’ll get aligned, ask the right questions, and avoid expensive surprises.
+          </p>
+        </div>
+
+        <aside class="profile" aria-label="Profile card">
+          <div class="profile-top">
+            <div class="avatar">
+              <img src="https://storage.googleapis.com/msgsndr/3z37W4oH1lMfraSObL1X/media/696fa38ccc95d73cca1b1774.png" alt="Connor MacIvor">
+            </div>
+            <div class="who">
+              <strong>Connor MacIvor (“Connor with Honor”)</strong>
+              <small>CA DRE #01238257<br>Call/Text: 661-400-1720</small>
+            </div>
+          </div>
+
+          <div class="profile-body">
+            Here’s what this session is:
+            a private, straightforward strategy conversation covering real estate decisions, AI audits, and AI-driven growth—so you move with confidence.
+            <div class="pillrow">
+              <div class="pill">Real Estate</div>
+              <div class="pill">AI Audits</div>
+              <div class="pill">AI Growth</div>
+            </div>
+          </div>
+
+          <div class="profile-actions">
+            <a class="btn btn-primary" href="#book">Book on ZoomMeSCV.com</a>
+            <a class="btn btn-ghost" href="tel:+16614001720">Call Now</a>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </header>
+
+  <!-- REAL ESTATE -->
+  <section id="real-estate">
+    <div class="wrap">
+      <div class="section-title">
+        <div>
+          <h2>Real Estate Strategy</h2>
+          <p>Clear guidance for buyers, sellers, and investors—focused on timing, risk, and net results.</p>
+        </div>
+      </div>
+
+      <div class="grid-2">
+        <div class="card">
+          <h3>Buyer strategy</h3>
+          <p>A clear plan for the next 30 days—based on your timeline, budget, and risk tolerance.</p>
+          <ul class="clean">
+            <li>How the current buyer process works and what must happen before showings.</li>
+            <li>Costs beyond the down payment—and how to avoid surprise fees.</li>
+            <li>How to compare lender quotes and evaluate true cost of financing.</li>
+            <li>When credits beat repairs (and when repairs are smarter).</li>
+            <li>How to avoid bad deals disguised as “special program” advertising.</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Seller strategy</h3>
+          <p>Build a pricing and positioning plan that protects your net and your timeline.</p>
+          <ul class="clean">
+            <li>How to evaluate market positioning beyond online estimates.</li>
+            <li>What actually moves price: condition, presentation, timing, and buyer psychology.</li>
+            <li>Repairs vs. credits: how to choose the cleanest path to close.</li>
+            <li>Commission conversations: how negotiations are structured today and what options exist.</li>
+            <li>How to reduce chaos and increase control during the transaction.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- AI AUDITS & GROWTH -->
+  <section id="ai-audits">
+    <div class="wrap">
+      <div class="section-title">
+        <div>
+          <h2>AI Audits &amp; AI Growth</h2>
+          <p>Evaluate AI risk, data exposure, and governance—then identify high-impact, low-risk growth opportunities.</p>
+        </div>
+      </div>
+
+      <div class="grid-2">
+        <div class="card">
+          <h3>AI audit (risk + governance)</h3>
+          <p>Surface risk before it becomes costly—privacy, security, compliance, and model reliability.</p>
+          <ul class="clean">
+            <li>Data handling and exposure review (what goes in, where it goes, and who can access it).</li>
+            <li>Model risk and reliability: hallucinations, bias, and performance drift.</li>
+            <li>Vendor and tool assessment: contracts, retention policies, and security posture.</li>
+            <li>Governance: approvals, logging, monitoring, and human oversight.</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>AI growth &amp; automation</h3>
+          <p>Pinpoint practical use cases and build a roadmap for measurable ROI.</p>
+          <ul class="clean">
+            <li>Process mapping to identify the highest-impact automation opportunities.</li>
+            <li>Tool selection and integration planning across your current stack.</li>
+            <li>Human-in-the-loop design to keep quality and accountability high.</li>
+            <li>KPIs and success criteria so wins are measurable and repeatable.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHAT WE COVER -->
+  <section id="whatwecover">
+    <div class="wrap">
+      <div class="section-title">
+        <div>
+          <h2>What We Cover in a ZoomMeSCV Session</h2>
+          <p>Think of it like a personal strategy briefing—built around your goals, risk tolerance, and timeline.</p>
+        </div>
+      </div>
+
+      <div class="grid-2">
+        <div class="card">
+          <h3>Decision points that matter</h3>
+          <ul class="clean">
+            <li>Real estate: buy vs. wait vs. reposition for the right timing.</li>
+            <li>AI audits: where risk lives and how to address it quickly.</li>
+            <li>AI growth: which use cases are highest-impact and lowest-risk.</li>
+            <li>How to avoid emotional or hype-driven decisions that cost real money.</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Practical, common-sense tactics</h3>
+          <ul class="clean">
+            <li>Clear scope, clear outcomes, and realistic next steps.</li>
+            <li>Risk mitigation: data exposure, vendor risk, and compliance alignment.</li>
+            <li>Execution planning: timeline, owners, and accountability.</li>
+            <li>How to structure decisions to reduce chaos and increase control.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VIDEO -->
+  <section id="video">
+    <div class="wrap">
+      <div class="section-title">
+        <div>
+          <h2>Quick Video</h2>
+          <p>If you’d rather watch first, add a Loom intro here. Keep it short and direct.</p>
+        </div>
+      </div>
+
+      <div class="video-shell">
+        <div class="video-responsive">
+          <iframe src="https://www.loom.com/embed/e5aed8e862a34007bbfef75e698e838c" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq">
+    <div class="wrap">
+      <div class="section-title">
+        <div>
+          <h2>FAQ</h2>
+          <p>Short answers. No fluff. If you want the full context, book the Zoom.</p>
+        </div>
+      </div>
+
+      <div class="faq" role="list">
+        <div class="faq-item" role="listitem">
+          <button class="faq-q" type="button">Is this really free? <span>Yes.</span> <i class="chev"></i></button>
+          <div class="faq-a"><div class="inner">Yes. It’s a no-obligation strategy session. If we’re a good fit, we can talk about next steps. If not, you still leave with clarity.</div></div>
+        </div>
+        <div class="faq-item" role="listitem">
+          <button class="faq-q" type="button">Is this for real estate or AI? <span>Both.</span> <i class="chev"></i></button>
+          <div class="faq-a"><div class="inner">Both. The session adapts to your situation—real estate strategy, AI audit needs, or AI growth planning.</div></div>
+        </div>
+        <div class="faq-item" role="listitem">
+          <button class="faq-q" type="button">What does an AI audit include? <span>Risk + governance.</span> <i class="chev"></i></button>
+          <div class="faq-a"><div class="inner">We review data handling, model risk, vendor exposure, governance, and monitoring. You leave with a prioritized action list.</div></div>
+        </div>
+        <div class="faq-item" role="listitem">
+          <button class="faq-q" type="button">Can I bring my team? <span>Absolutely.</span> <i class="chev"></i></button>
+          <div class="faq-a"><div class="inner">Bring stakeholders or technical leads. Alignment speeds up decisions and reduces rework.</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BOOKING -->
+  <section id="book">
+    <div class="wrap">
+      <div class="section-title">
+        <div>
+          <h2>Book Your Zoom Strategy Session</h2>
+          <p>Pick a time that works. You’ll get a Zoom link automatically.</p>
+        </div>
+      </div>
+
+      <div class="booking-shell">
+        <p class="booking-note">
+          Connor MacIvor (“Connor with Honor”) — CA DRE #01238257 — Call/Text: <a href="tel:+16614001720" style="color:var(--gold);">661-400-1720</a><br>
+          20–30 minutes. No obligation. Topics include real estate strategy, AI audits, and AI growth.
+        </p>
+
+        <!-- Calendar embed (provided) -->
+        <iframe src="https://api.honorelevate.com/widget/booking/TMqIuqam1A7MBAgrm2hk" style="width: 100%;border:none;overflow: hidden;" scrolling="no" id="TMqIuqam1A7MBAgrm2hk_1769808337868"></iframe><br>
+        <script src="https://api.honorelevate.com/js/form_embed.js" type="text/javascript"></script>
+      </div>
+    </div>
+  </section>
+
+  <!-- BOTTOM VIDEO -->
+  <section id="video-bottom">
+    <div class="wrap">
+      <div class="section-title">
+        <div>
+          <h2>Watch the Overview</h2>
+          <p>A quick walkthrough of how the strategy session works.</p>
+        </div>
+      </div>
+
+      <div class="video-shell">
+        <div class="video-responsive">
+          <iframe src="https://www.loom.com/embed/167709ee894a42ff8534be485aa188d6" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="wrap">
+      <div class="footer-grid">
+        <div class="fine">
+          <strong style="color:var(--text);">Connor MacIvor (“Connor with Honor”)</strong><br>
+          CA DRE #01238257<br>
+          Call/Text: <a href="tel:+16614001720">661-400-1720</a><br>
+          ZoomMeSCV.com
+        </div>
+        <div class="fine">
+          Educational information only. Not legal, tax, financial, or compliance advice. Real estate rules, lending requirements, and AI regulations vary by situation and can change.
+          For specific guidance, consult the appropriate licensed professional.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Mobile CTA -->
+  <div class="float-cta">
+    <a class="btn btn-primary" href="#book">Book a Zoom</a>
+    <a class="btn btn-ghost" href="tel:+16614001720" style="background:#000;">Call</a>
+  </div>
+
+  <script>
+    (function () {
+      const prefersReducedMotion = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+      // HERO SLIDESHOW
+      const slides = Array.from(document.querySelectorAll(".hero-bg .slide"));
+      let idx = 0;
+
+      function showNext() {
+        if (prefersReducedMotion || slides.length < 2) return;
+        const current = slides[idx];
+        idx = (idx + 1) % slides.length;
+        const next = slides[idx];
+        next.classList.add("is-active");
+        current.classList.remove("is-active");
+      }
+
+      if (!prefersReducedMotion) {
+        setInterval(showNext, 6000);
+      }
+
+      // FAQ
+      const faqItems = Array.from(document.querySelectorAll(".faq-item"));
+      faqItems.forEach(item => {
+        const btn = item.querySelector(".faq-q");
+        if(btn){
+          btn.addEventListener("click", () => {
+            const isOpen = item.classList.contains("open");
+            faqItems.forEach(i => i.classList.remove("open"));
+            if (!isOpen) item.classList.add("open");
+          });
+        }
+      });
+    })();
+  </script>
+</body>
+</html>
